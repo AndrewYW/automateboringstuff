@@ -12,11 +12,13 @@
   - group(2) yields second block
   - group() or group(0) yields entire text
   - In this instance, you can then separate them into variables:
+
     ```python
     areaCode, mainNumber = mo.groups()
     print(areaCode)
     print(mainNumber)
     ```
+
 ##Example with phone numbers
 
 ```python
